@@ -9,11 +9,17 @@
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/e2a85c9553.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="./index.html"
+          ><img src="./images/logo.png" alt="Gears and Wrench" id="logo"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,22 +33,44 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="./about.html">About</a>
+            <a class="nav-item nav-link" href="./cars.html">Cars</a>
+            <a class="nav-item nav-link" href="./contact.html">Contact</a>
           </div>
         </div>
       </nav>
     </header>
-    <main>
-      Ok somehow I need to make 4 pages from this site. I can do an about, and a
-      contact page no prob.
+    <main class="main">
+      <div class="landing-page">
+        <div class="left-side">
+          <h1>Welcome to the club.</h1>
+        </div>
+
+        <div class="right-side">
+          <div class="image-container">
+            <img src="./images/tools.jpg" id="hero-img" alt="Tools" />
+          </div>
+        </div>
+      </div>
+
+      <div class="action-section">
+        <div class="left-shade"></div>
+        <div class="slant"></div>
+        <div class="slant-2"></div>
+        <div class="cta-button-container">
+          <a href="./cars.html">
+            <p>
+              Let's get you set up
+            </p>
+            <i class="fas fa-angle-double-right"></i>
+          </a>
+        </div>
+      </div>
     </main>
-    <footer>
-      footer action
+    <footer class="footer">
+      <a href="https://github.com/fullnelson14/creativeProject1"
+        >Link to Github</a
+      >
     </footer>
 
     <script
